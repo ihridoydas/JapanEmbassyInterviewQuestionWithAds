@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.hridoy.info.japanembassyinterviewquestion">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-1352722733825128~1995353232"/>
+
+        <activity android:name=".OthersQuestionFour"
+            android:parentActivityName=".OthersQuestionThree" ></activity>
+        <activity
+            android:name=".OthersQuestionThree"
+            android:parentActivityName=".OthersQuestionTwo" />
+        <activity
+            android:name=".OthersQuestionTwo"
+            android:parentActivityName=".OthersQuestionOne" />
+        <activity
+            android:name=".OthersQuestionOne"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".EligibalityActivity"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".EmbassyActivity"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".FamillyInfoActivityTwo"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".FamillyInfo"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".EduQuestionActivityFour"
+            android:parentActivityName=".EduQuestionActivityThree" />
+        <activity
+            android:name=".EduQuestionActivityThree"
+            android:parentActivityName=".EduQuestionActivityTwo" />
+        <activity
+            android:name=".EduQuestionActivityTwo"
+            android:parentActivityName=".EduQuestionActivityOne" />
+        <activity
+            android:name=".EduQuestionActivityOne"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".BasicQuestionActivityFour"
+            android:parentActivityName=".BasicQuestionActivityThree" />
+        <activity
+            android:name=".BasicQuestionActivityThree"
+            android:parentActivityName=".BasicQuestionActivityTwo" />
+        <activity
+            android:name=".BasicQuestionActivityTwo"
+            android:parentActivityName=".BasicQuestionActivity" />
+        <activity
+            android:name=".BasicQuestionActivity"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".SelfIntroduction"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".PreparationActivity"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".SplashScreen"
+            android:theme="@style/Theme.AppCompat.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/Theme.AppCompat.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+
+
+    </application>
+
+</manifest>

@@ -1,0 +1,19 @@
+<resources
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <string name="app_name">Japan Embassy Interview Question</string>
+    <string name="rate_dialog_title">Rate this app </string>
+    <string name="rate_dialog_message">If you enjoyed this app,would you mind taking a moment to rate it? It wont take more than a minute. Thanks for your support!</string>
+    <string name="rate_dialog_ok">RATE IT NOW</string>
+    <string name="rate_dialog_cancel">REMIND ME LATER</string>
+    <string name="rate_dialog_no">NO,THANKS</string>
+    <string name="preparation_step">রুম - এ ঢুকার পূর্বে দরজা দুইবার নক করে, দরজা টান দিবেন ।দরজাটা একটু খানি ফাঁক হলে, সাথে সাথে (はいってもいですか) কথা বলে ভিতরে ঢুকবেন। দরজাটা আস্তে করে বন্ধ করবেন ,ভিতরে প্রবেশ করে (しつれいします) বলে (こんにちは) বলে সাক্ষাৎকার এর জন্য প্রস্তুত হবেন। কোন প্রশ্ন না বুঝলে (すみませんもういちどおねがいします) বলবেন । আর প্রশ্ন না পারলে (せんせいこのしつもんがわかりません) বলবেন। কানজি পড়ার সময় ,কোন কানজি না পারলে কানজি টি আঙ্গুল দিয়ে দেখিয়ে (あのせんせいこのかんじがすこしわかりません)বলবেন।  জাপানি (ありがとうございました) বলে সাক্ষাৎকার শেষ করবেন।  সাক্ষাৎকার শেষ হওয়ার সাথে সাথেই (どうもありがとうございました) বলে রুম থেকে বের হবেন ।</string>
+
+
+    <string name="App_id">ca-app-pub-1352722733825128~1995353232</string>
+    <string name="banner_ad">ca-app-pub-1352722733825128/5076812145</string>
+    <string name="Interstitial_ads">ca-app-pub-1352722733825128/5338388799</string>
+    <string name="Rewarded_ad">ca-app-pub-1352722733825128/1803781545</string>
+
+</resources>
